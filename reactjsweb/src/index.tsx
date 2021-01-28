@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './index.module.css';
+import Main from './routes/main'
 import reportWebVitals from './reportWebVitals';
+//import 'rsuite/lib/styles/index.less'; 
+import 'rsuite/dist/styles/rsuite-dark.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Main />
   </React.StrictMode>,
   document.getElementById('root')
 );
