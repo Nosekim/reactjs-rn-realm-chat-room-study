@@ -1,0 +1,85 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+#
+rnapp/build/
+rnapp/.idea
+rnapp/.gradle
+rnapp/local.properties
+rnapp/*.iml
+
+# node.js
+#
+rnapp/node_modules/
+rnapp/npm-debug.log
+rnapp/yarn-error.log
+
+# BUCK
+rnapp/buck-out/
+rnapp/\.buckd/
+rnapp/*.keystore
+rnapp/!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+rnapp/*/fastlane/report.xml
+rnapp/*/fastlane/Preview.html
+rnapp/*/fastlane/screenshots
+
+# Bundle artifact
+rnapp/*.jsbundle
+
+# CocoaPods
+rnapp/ios/Pods/
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+rnapp/node_modules
+rnapp/.pnp
+rnapp/.pnp.js
+
+# testing
+rnapp/coverage
+
+# production
+rnapp/build
+
+# misc
+rnapp/.DS_Store
+rnapp/.env.local
+rnapp/.env.development.local
+rnapp/.env.test.local
+rnapp/.env.production.local
+
+rnapp/npm-debug.log*
+rnapp/yarn-debug.log*
+rnapp/yarn-error.log*
+
